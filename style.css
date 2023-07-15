@@ -37,3 +37,49 @@ body {
 .links {
     min-width: 360px;
 }
+
+.main {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    min-height: 250px;
+    padding: 75px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 500px;
+    max-height: 400px;
+    
+}
+
+button.sign-up {
+    margin-top: 10px;
+    color: white;
+    background-color: #3882f6;
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {  
+    margin-left: 10px;
+    
+    background-image: url("./resources/images/space.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right img {
+    height: 400px;
+}
+
+.left h1 {
+    margin-bottom: 40px;
+}
